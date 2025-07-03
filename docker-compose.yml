@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  kafka_queue:
+    build: .
+    ports:
+      - 7000:7000
+    volumes:
+      - .:/app
+    networks:
+      laravel_ambassador_shared_network:
+        aliases:
+          - kafkaqueue.local
+    command: tail -f /dev/null
+networks:
+  laravel_ambassador_shared_network:
+    external: true

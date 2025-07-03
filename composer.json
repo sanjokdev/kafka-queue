@@ -1,0 +1,11 @@
+{
+    "name": "sanjoknepgrg/kafka-queue",
+    "require": {
+        "laravel/framework": "8.5"
+    },
+    "authors": [
+        {
+            "name": "Sanjok Gurung"
+        }
+    ]
+}

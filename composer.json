@@ -1,5 +1,5 @@
 {
-    "name": "sanjoknepgrg/kafka-queue",
+    "name": "sanjokdev/kafka-queue",
     "require": {
         "laravel/framework": "8.5"
     },

@@ -1,7 +1,7 @@
 {
     "name": "sanjokdev/kafka-queue",
     "require": {
-        "laravel/framework": "8.5"
+        "laravel/framework": "8.75"
     },
     "authors": [
         {
